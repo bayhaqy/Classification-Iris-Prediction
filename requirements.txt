@@ -1,0 +1,7 @@
+matplotlib
+ydata-profiling
+streamlit-pandas-profiling
+streamlit
+scikit-learn
+pandas
+pandas-profiling
