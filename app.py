@@ -57,8 +57,8 @@ if st.button('Predict type of Iris'):
   st.text(result[0])
 
 st.write("---")
-if st.checkbox("Sample preview the Iris Dataset"):
-    st.dataframe(df.sample(10))  # Same as st.write(df)
+if st.checkbox("Sample rendom the Iris Dataset"):
+    st.write(df.sample(10))  # Same as st.write(df)
     #pr = ProfileReport(df,title="Dataset Report",correlations=None)
     #st_profile_report(pr)
 
